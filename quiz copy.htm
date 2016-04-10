@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>David Bowie Quiz</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script>
+			document.ready(function() {
+				$("#question").hide().fadeIn("slow");
+				$("#container").hide().fadeIn("slow");
+				$("button").hide().fadeIn("slow");
+			});
+		</script>
+		<link rel= "stylesheet" type= "text/css" href="bowie.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,greek' rel='stylesheet' type='text/css'>
+		
+	
+	</head>
+	<body>
+		<div id="container">
+			<div id="question">
+				<form>
+					<p>What three albums comprise the "Berlin Trilogy"?</p>
+						<ul>
+							<li class="dark"><label><input type="radio" name="answer" value="Choice A">Hunky Dory, Scary Monsters, Heroes</label></li>
+							<li class="light"><label><input type="radio" name="answer" value="Choice B"></label></li>
+							<li class="dark"><label><input type="radio" name="answer" value="Choice C"><label></li>
+							<li class="light"><label><input type="radio" name="answer" value="Choice D"><label></li>
+						</ul>
+			</div>
+						<button>Submit</button>
+				</form>
+			</div>
+		</body>
+	</html>
